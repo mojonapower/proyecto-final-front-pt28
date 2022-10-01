@@ -7,6 +7,6 @@ import "../styles/index.css";
 
 //import your own components
 import Layout from "./layout";
-
+import { ChakraProvider } from '@chakra-ui/react'
 //render your react application
-ReactDOM.render(<Layout />, document.querySelector("#app"));
+ReactDOM.render(<ChakraProvider> <Layout /> </ChakraProvider>, document.querySelector("#app"));
