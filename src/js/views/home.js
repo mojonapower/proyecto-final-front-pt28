@@ -5,6 +5,7 @@ import "../../styles/home.css";
 export const Home = () => (
 	<div className="text-center mt-5">
 		<h1>Hello Rigo!</h1>
+		<h2 className="display-5">Hola</h2>
 		<p>
 			<img src={rigoImage} />
 		</p>
